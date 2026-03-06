@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+Disallow: /config/
+Disallow: /backup/
+Disallow: /uploads/
+Allow: /uploads/*.jpg
+Allow: /uploads/*.png
+Allow: /uploads/*.gif
+Allow: /uploads/*.webp  
+Disallow: /*?*
+Disallow: /search/
+Disallow: /print/
+User-agent: Bingbot
+Disallow: /
+
+Sitemap: https://hayashimulift-jp.com/sitemap.xml
+Sitemap: https://hayashimulift-jp.com/sitemap-index.xml
